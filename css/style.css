@@ -1,0 +1,122 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700,600);
+
+body {
+	font-family: Open Sans, arial, sans-serif;
+	font-size: 16px;
+	line-height: 1.5;
+	background: #DEE2E7;
+	width: 680px;
+	margin: 0 auto 0 auto;
+	position: relative;
+
+}
+
+section {
+	background: #ffffff;
+	padding: 20px 30px 30px 30px;
+	margin: 50px 0 50px 0;
+	box-shadow: 2px 2px 5px #888888;
+
+}
+
+button {
+	background-color: #666f7b;
+	border: none;
+	padding: 15px 25px 15px 25px;
+	font-size: 18px;
+	color: #ffffff;
+}
+
+a {
+	display:block;
+	padding: 20px 0 20px 0;
+}
+
+h1 {
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 1.3;
+	padding: 0 0 10px 0;
+}
+
+.abstract {
+  margin: 0 0 1em 0;
+  overflow: hidden;
+}
+
+
+.line-clamp {
+  display: -webkit-box;
+  -webkit-line-clamp: 5;
+  -webkit-box-orient: vertical;  
+}
+
+.authors {
+	font-size: 16px;
+	color: #666f7b;
+}
+.publication {
+	font-size: 14px;
+	padding: 0 0 10px 0;
+	color: #666f7b;
+}
+
+
+
+section#fifth {
+	position: absolute;
+	top: 50px;
+	right: 5px;
+	z-index: 1;
+
+}
+
+section#fourth {
+	position: absolute;
+	top: 40px;
+	right: 4px;
+	z-index: 2;
+
+}
+
+
+section#third {
+	position: absolute;
+	top: 30px;
+	right: 3px;
+	z-index: 3;
+
+}
+
+
+section#second {
+	position: absolute;
+	top: 20px;
+
+	right: 2px;
+	z-index: 4;
+
+}
+
+
+section#first {
+	position: absolute;
+	top: 10px;
+	right:1px;
+	z-index: 5;
+
+}
+
+.relevant {
+   animate: slide;
+}
+
+button {
+	cursor: pointer;
+}
+
+@media screen and (max-width: 720px) {
+	body {
+		width: auto;
+		margin: 0 20px 0 20px;
+	}
